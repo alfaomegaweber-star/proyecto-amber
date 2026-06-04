@@ -8,6 +8,7 @@ st.title("🤖 Proyecto Amber")
 st.subheader("Creador de Chatbots - Experimento 1")
 
 # Inicializa el cliente de Gemini
+# Inicializa el cliente de Gemini pasándole la clave directamente
 if "client" not in st.session_state:
     st.session_state.client = genai.Client()
 
